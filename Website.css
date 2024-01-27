@@ -1,0 +1,233 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+background-image: linear-gradient(to right, #8B4513, #DAA520, #000000);}
+
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    background-image: linear-gradient(to right, #8B4513, #DAA520);
+
+
+}
+
+.splash-text {
+    font-size: 52px;
+    font-weight: bold;
+    color: linear-gradient(to right, #8B4513, #DAA520);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.main-content {
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.judul{
+    font-size: 48px;
+    color: linear-gradient(to right, #8B4513, #DAA520, #000000);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-main {
+    width: 70%;
+    height: auto; 
+    /* max-height: 100vh;  */
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap; 
+    border: 3px solid #e91e63;
+    border-radius: 10px;
+    opacity: 0.7;
+    padding-bottom: 20px;
+    
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    transition: opacity 1s ease-in-out;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid .desc{
+    width: 300px;
+    height: 70px;
+    background-color: #e91e63;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.grid .foto{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border: 3px solid #e91e63;
+    box-shadow: 0px 0px 20px 10px #e91e63;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto1{
+    background-image: url(Aset/kha.jpg);
+    padding-bottom: 60px;
+}
+
+.foto2{
+    background-image: url(Aset/ica.jpeg);
+    padding-bottom: 60px;
+}
+
+
+.foto3{
+    background-image: url(Aset/ami.jpeg);
+    padding-bottom: 60px;
+}
+
+
+.foto4{
+    background-image: url(Aset/uti.png);
+    padding-bottom: 60px;
+}
+
+.foto5{
+    background-image: url(Aset/eja.jpeg);
+    
+    padding-bottom: 20px;
+}
+
+.foto6{
+    background-image: url(Aset/alka.jpg);
+    padding-bottom: 60px;
+}
+.foto7{
+    background-image: url(Aset/mik.jpg);
+    padding-bottom: 60px;
+}
+.foto8{
+    background-image: url(Aset/ari.jpeg);
+    padding-bottom: 60px;
+}
+.foto9{
+    background-image: url(Aset/riky.jpg);
+    padding-bottom: 60px;
+}
+.foto10{
+    background-image: url(Aset/nar.jpeg);
+    padding-bottom: 60px;
+}
+.foto11{
+    background-image: url(Aset/sapu.png);
+    padding-bottom: 60px;
+}
+.foto12{
+    background-image: url(Aset/gi.jpg);
+    padding-bottom: 60px;
+}
+.foto13{
+    background-image: url(Aset/id.jpeg);
+    padding-bottom: 60px;
+}
+.foto14{
+    background-image: url(Aset/rul.jpeg);
+    padding-bottom: 60px;
+}
+
+.grid .desc5{
+    width: 400px;
+}
+
+@media (max-width: 767px) {
+    .container-main {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .grid {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .foto {
+        width: 100%;
+        height: auto;
+    }
+}

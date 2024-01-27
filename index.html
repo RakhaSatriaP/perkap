@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Website.css">
+    <link rel="icon" href="Aset/perkaplogo.jpeg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Perkap 2020</title>
+</head>
+
+<body>
+    <div class="splash-screen">
+
+        <div class="splash-text">PERKAP 2020</div>
+    </div>
+
+    <div class="main-content">
+        <div class="judul">
+            <h1>WISUDA NIH BOS</h1>
+        </div>
+        <div class="container-main">
+            <div class="grid">
+                <div class="foto foto1"></div>
+                <div class="desc desc1">
+                    Rakha Satria Pratama, S.Kom.
+                </div>
+                
+            </div>
+
+            <div class="grid">
+                <div class="foto foto2"></div>
+                <div class="desc desc1">
+                    Raissa Ardelia, S.Kom.
+                </div>
+                
+            </div>
+
+            <div class="grid">
+                <div class="foto foto3"></div>
+                <div class="desc desc1">
+                    Almira Syamsi Nur Insan, S.Kom.
+                </div>
+                
+            </div>
+
+            <div class="grid">
+                <div class="foto foto4"></div>
+                <div class="desc desc1">
+                    Futri Nuralyah, S.Sn.
+                </div>
+                
+            </div>
+
+            <div class="grid">
+                <div class="foto foto5"></div>
+                <div class="desc desc5">
+                    Fahreza Anggriantaka, S.Kom.
+                </div>
+                
+            </div>
+
+            <div class="grid">
+                <div class="foto foto6"></div>
+                <div class="desc desc1">
+                    Alfatha Huga Anaku,  S.Kom.
+                </div>
+                
+            </div>
+            <div class="grid">
+                <div class="foto foto7"></div>
+                <div class="desc desc1">
+                    Mikhail Sannata Widjaya, S.T
+                </div>
+                
+            </div>
+            <div class="grid">
+                <div class="foto foto8"></div>
+                <div class="desc desc1">
+                    Ari Yanuar Putra, S.T.
+                </div>
+                
+            </div>
+            <div class="grid">
+                <div class="foto foto9"></div>
+                <div class="desc desc1">
+                    Riky Indra Sakti, S.Kom.
+                </div>
+                
+            </div>
+            <div class="grid">
+                <div class="foto foto10"></div>
+                <div class="desc desc1">
+                    Dinar Nurdani, S.Sn.
+                </div>
+                
+            </div>
+            <div class="grid">
+                <div class="foto foto11"></div>
+                <div class="desc desc1">
+                    Nadya Sari Putri Wandayanti, S.T.
+                </div>
+                
+            </div>
+            <div class="grid">
+                <div class="foto foto12"></div>
+                <div class="desc desc1">
+                    Ravi Farhan Giyandra, S.T
+                </div>
+                
+            </div>
+            <div class="grid">
+                <div class="foto foto13"></div>
+                <div class="desc desc1">
+                    Sayyid Q Ibrahim, S. Ds.
+                </div>
+                
+            </div>
+            <div class="grid">
+                <div class="foto foto14"></div>
+                <div class="desc desc1">
+                    Fachrul Febriana, S.Kom
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    <div class="aboutme"></div>
+
+
+    <a id="scrollToTop" class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-700 hover:duration-300 hover:scale-110 fixed bottom-5 right-5" href="#">
+        <img src="Aset/up.png" alt="up" >
+    </a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                document.querySelector('.splash-screen').style.display = 'none';
+                document.querySelector('.main-content').style.opacity = '1';
+            }, 3000);
+        });
+
+
+        window.addEventListener('scroll', () => {
+        const scrollToTop = document.getElementById('scrollToTop');
+        if (window.scrollY > 100) {
+            scrollToTop.style.display = 'block';
+        } else {
+            scrollToTop.style.display = 'none';
+        }
+    });
+    </script>
+</body>
+
+</html>
