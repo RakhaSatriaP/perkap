@@ -105,10 +105,16 @@ background-image: linear-gradient(to right, #8B4513, #DAA520, #000000);}
     padding-bottom: 20px;
     
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
     transition: opacity 1s ease-in-out;
 }
+
+/* .grid-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
 
 .grid{
     display: flex;
@@ -130,7 +136,7 @@ background-image: linear-gradient(to right, #8B4513, #DAA520, #000000);}
     box-sizing: border-box;
     padding: 10px;
     font-size: 20px;
-    
+    margin-top: 10px;
 }
 
 .grid .foto{
